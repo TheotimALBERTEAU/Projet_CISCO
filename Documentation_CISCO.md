@@ -33,7 +33,7 @@ VITROU Vladimir / BRAUD Thomas / CAILLAUD Nino / MOLENDI Lucas / BROSSET Lilian 
 | SRV     | 30   | 10.100.3.128/27 | 10.100.3.129 | Données sensibles / Prototypes        |
 | GUEST   | 40   | 10.100.3.160/27 | 10.100.3.161 | Partenaires externes (Web uniquement) |
 | TRANSIT | -    | 10.255.3.0/30   | -            | Lien Routeur <-> Firewall             |
-Voir [[#5.1 Photo de l'adressage IP des VLAN]]
+Voir **5.1 Photo de l'adressage IP des VLAN**
 
 #### **Réseaux de transit**
 
@@ -103,11 +103,11 @@ Voir [[#5.1 Photo de l'adressage IP des VLAN]]
 ![](Images/Pasted_image_20260116145717.png)
 
 #### 2.2.5 Configuration sur le switch
-Voir annexes [[#5.3 Configuration des VLANs sur le switch]]
+Voir annexes **5.3 Configuration des VLANs sur le switch**
 
 ### 2.3 Configuration des Firewalls des VLANS
 
-Voir aussi l'annexe [[#5.2 Configuration firewall OPNsense]]
+Voir aussi l'annexe **5.2 Configuration firewall OPNsense**
 #### 2.3.1 VLAN 10 
 
 ![](Images/Pasted_image_20260122094612.png)
@@ -232,7 +232,11 @@ Voir aussi l'annexe [[#5.2 Configuration firewall OPNsense]]
 ### 5.2 Configuration firewall OPNsense
 ![](Images/Pasted_image_20260123102039.png)
 
-### 5.3 Configuration des VLANs sur le switch
+### 5.3 Config DHCPv4 du Firewall
+![](Images/Pasted%20image%2020260126142026.png)
+
+![](Images/Pasted%20image%2020260126142111.png)
+### 5.4 Configuration des VLANs sur le switch
 ![](Images/Pasted_image_20260123115845.png)
 ![](Images/Pasted_image_20260123115859.png)
 ![](Images/Pasted_image_20260123115909.png)
