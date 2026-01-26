@@ -28,11 +28,13 @@ VITROU Vladimir / BRAUD Thomas / CAILLAUD Nino / MOLENDI Lucas / BROSSET Lilian 
 
 | Zone    | VLAN | Sous-Réseau     | Passerelle   | Usage                                 |
 | ------- | ---- | --------------- | ------------ | ------------------------------------- |
-| ADMIN   | 10   | 10.100.3.0/26   | 10.100.3.1   | Gestion d'équipements (HTTPS/SSH)     |
-| USERS   | 20   | 10.100.3.64/26  | 10.100.3.65  | Postes de Travails R&D                |
-| SRV     | 30   | 10.100.3.128/27 | 10.100.3.129 | Données sensibles / Prototypes        |
-| GUEST   | 40   | 10.100.3.160/27 | 10.100.3.161 | Partenaires externes (Web uniquement) |
+| ADMIN   | 10   | 10.100.3.62/26  | 10.100.3.1   | Gestion d'équipements (HTTPS/SSH)     |
+| USERS   | 20   | 10.100.3.126/26 | 10.100.3.65  | Postes de Travails R&D                |
+| SRV     | 30   | 10.100.3.158/27 | 10.100.3.129 | Données sensibles / Prototypes        |
+| GUEST   | 40   | 10.100.3.190/27 | 10.100.3.161 | Partenaires externes (Web uniquement) |
+| MGMT    | 99   | 10.100.3.206    |              |                                       |
 | TRANSIT | -    | 10.255.3.0/30   | -            | Lien Routeur <-> Firewall             |
+
 Voir **5.1 Photo de l'adressage IP des VLAN**
 
 #### **Réseaux de transit**
@@ -103,11 +105,11 @@ Voir **5.1 Photo de l'adressage IP des VLAN**
 ![](Images/Pasted_image_20260116145717.png)
 
 #### 2.2.5 Configuration sur le switch
-Voir annexes **5.3 Configuration des VLANs sur le switch**
+Voir annexes **5.4 Configuration des VLANs sur le switch**
 
 ### 2.3 Configuration des Firewalls des VLANS
 
-Voir aussi l'annexe **5.2 Configuration firewall OPNsense**
+Voir aussi l'annexe **5.2 Configuration firewall OPNsense** et **5.3 Configuration DHCPv4 du Firewall**
 #### 2.3.1 VLAN 10 
 
 ![](Images/Pasted_image_20260122094612.png)
@@ -212,7 +214,9 @@ Voir aussi l'annexe **5.2 Configuration firewall OPNsense**
     
 - **Vérification Trunk :** Le Port Group "TRUNK" vers OPNsense est-il bien en **VLAN ID 4095** (mode promiscuous/trunk sur ESXi) ?
 
-## 4. Points de contrôles
+## 4. Points de contrôles et Retours d'expériences
+
+### 4.1 Points de contrôles du projet
 
 | **Point de contrôle**   | **Outil / Commande**                  | **Résultat attendu**                                                   | **Effectué** |
 | ----------------------- | ------------------------------------- | ---------------------------------------------------------------------- | ------------ |
@@ -223,6 +227,16 @@ Voir aussi l'annexe **5.2 Configuration firewall OPNsense**
 | **NAT Sortant**         | `Firewall > NAT > Outbound`           | Mode "Hybrid" ou "Manual" avec règle pour `10.100.3.0/24` vers le WAN. | ☑            |
 | **Logs Firewall**       | `Firewall > Log Files > Live`         | Pas de blocage massif anormal (Rouge) sur des flux métiers.            | ☑            |
 | **Sauvegardes**         | `System > Configuration > History`    | Une sauvegarde automatique ou manuelle existe pour chaque changement.  | ☑            |
+
+### 4.2 Problèmes
+#### *Pour nos retours personnels, nous avons eu plusieurs problèmes importants :*
+- Oubli d'une **sauvegarde** ce qui nous a fait recommencer l'ensemble de la configuration. 
+- Un problème d'IP, celle de la config VLAN à été remplacée par la **passerelle**, ce qui empêchait le bon fonctionnement.
+
+### 4.3 Réussites 
+
+#### *Mais ces échecs ont suivis de réussites :*
+- Un utilisateur et le routeur visibles dans la VLAN (voir annexe **5.5 Utilisateur et routeur dans la VLAN**)
 
 ## 5. Annexes :
 
@@ -240,3 +254,6 @@ Voir aussi l'annexe **5.2 Configuration firewall OPNsense**
 ![](Images/Pasted_image_20260123115845.png)
 ![](Images/Pasted_image_20260123115859.png)
 ![](Images/Pasted_image_20260123115909.png)
+
+### 5.5 Utilisateur et routeur dans la vlan
+![](Images/Pasted%20image%2020260126143408.png)
