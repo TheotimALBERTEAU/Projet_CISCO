@@ -1,6 +1,3 @@
-
-### Groupe R&D
-
 # RUNBOOK : 
 
 #### Projet : 
@@ -48,7 +45,7 @@ Voir [[#5.1 Photo de l'adressage IP des VLAN]]
 
 ### 1.3 Schéma du Réseau 
 
-![[Pasted image 20260115111528.png]]
+![[Images/Pasted image 20260115111528.png]]
 
 
 ## 2. Procédures d'Exploitation (MCO) : 
