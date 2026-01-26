@@ -19,27 +19,27 @@ VITROU Vladimir / BRAUD Thomas / CAILLAUD Nino / MOLENDI Lucas / BROSSET Lilian 
 ### 1.2 Tableau d'adressage IP : 
 
 #### **Adresses Principales**
-| Nom         | IPV4           | IPV6                 | Description        |
+| Nom         | IPv4           | IPV6                 | Description        |
 | ----------- | -------------- | -------------------- | ------------------ |
 | Adresse WAN | 172.16.0.0/24  | -                    | (imposé)           |
 | G3 R&D      | 172.16.0.13/24 | 2001:db8:0:16::13/64 | Adresse  WAN Perso |
  
 #### **BLOC LAN**
 
-| Zone    | VLAN | Sous-Réseau     | Passerelle   | Usage                                 |
+| Zone    | VLAN | IPv4            | Passerelle   | Usage                                 |
 | ------- | ---- | --------------- | ------------ | ------------------------------------- |
-| ADMIN   | 10   | 10.100.3.62/26  | 10.100.3.1   | Gestion d'équipements (HTTPS/SSH)     |
-| USERS   | 20   | 10.100.3.126/26 | 10.100.3.65  | Postes de Travails R&D                |
-| SRV     | 30   | 10.100.3.158/27 | 10.100.3.129 | Données sensibles / Prototypes        |
-| GUEST   | 40   | 10.100.3.190/27 | 10.100.3.161 | Partenaires externes (Web uniquement) |
-| MGMT    | 99   | 10.100.3.206    |              |                                       |
+| ADMIN   | 10   | 10.100.3.1/26   | 10.100.3.62  | Gestion d'équipements (HTTPS/SSH)     |
+| USERS   | 20   | 10.100.3.65/26  | 10.100.3.126 | Postes de Travails R&D                |
+| SRV     | 30   | 10.100.3.129/27 | 10.100.3.158 | Données sensibles / Prototypes        |
+| GUEST   | 40   | 10.100.3.161/27 | 10.100.3.190 | Partenaires externes (Web uniquement) |
+| MGMT    | 99   | 10.100.3.193    | 10.100.3.206 |                                       |
 | TRANSIT | -    | 10.255.3.0/30   | -            | Lien Routeur <-> Firewall             |
 
 Voir **5.1 Photo de l'adressage IP des VLAN**
 
 #### **Réseaux de transit**
 
-| Nom               | IPV4          | IPV6                |
+| Nom               | IPv4          | IPV6                |
 | ----------------- | ------------- | ------------------- |
 | Transit           | 10.255.3.0/30 | 2001:db8:3:ff::/64  |
 | Routeur (Transit) | 10.255.3.1/30 | 2001:db8:3:ff::1/64 |
