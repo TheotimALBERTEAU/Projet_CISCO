@@ -184,7 +184,7 @@ Voir aussi l'annexe **5.2 Configuration firewall OPNsense** et **5.3 Configurati
 
 ### 3.2 DNS KO
 
-- **Symptôme :** `ping 8.8.8.8` (IP) fonctionne, mais `ping google.fr` (Nom) échoue.
+- **Symptôme :** `ping 8.8.8.8` fonctionne, mais `ping google.fr` échoue.
     
 - **Action :** Vérifier `Services > DNS Resolver` sur OPNsense et l'autorisation du port **UDP/53** dans les règles Firewall.
     
@@ -244,7 +244,7 @@ Voir aussi l'annexe **5.2 Configuration firewall OPNsense** et **5.3 Configurati
 ![](Images/Pasted_image_20260116114318.png)
 
 ### 5.2 Configuration firewall OPNsense
-![](Images/Pasted_image_20260123102039.png)
+![](Images/Pasted%20image%2020260126150832.png)
 
 ### 5.3 Config DHCPv4 du Firewall
 ![](Images/Pasted%20image%2020260126142026.png)
