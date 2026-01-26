@@ -45,7 +45,7 @@ Voir [[#5.1 Photo de l'adressage IP des VLAN]]
 
 ### 1.3 Schéma du Réseau 
 
-![[Images/Pasted image 20260115111528.png]]
+![](Images/Pasted_image_20260115111528.png)
 
 
 ## 2. Procédures d'Exploitation (MCO) : 
@@ -77,30 +77,30 @@ Voir [[#5.1 Photo de l'adressage IP des VLAN]]
 
 #### Exemple de création d'une VLAN 
 
-![[Pasted image 20260122094240.png]]
+![](Images/Pasted_image_20260122094240.png)
 
 #### 2.2.1 VLAN 10 : 
 
-![[Pasted image 20260116145031.png]]
+![](Images/Pasted_image_20260116145031.png)
 
-![[Pasted image 20260116145042.png]]
+![](Images/Pasted_image_20260116145042.png)
 #### 2.2.2 VLAN 20 :
 
-![[Pasted image 20260116145048.png]]
+![](Images/Pasted_image_20260116145048.png)
 
-![[Pasted image 20260116145053.png]]
+![](Images/Pasted_image_20260116145053.png)
 
 #### 2.2.3 VLAN 30 : 
 
-![[Pasted image 20260116145702.png]]
+![](Images/Pasted_image_20260116145702.png)
 
-![[Pasted image 20260116145707.png]]
+![](Images/Pasted_image_20260116145707.png)
 
 #### 2.2.4 VLAN 40 : 
 
-![[Pasted image 20260116145712.png]]
+![](Images/Pasted_image_20260116145712.png)
 
-![[Pasted image 20260116145717.png]]
+![](Images/Pasted_image_20260116145717.png)
 
 #### 2.2.5 Configuration sur le switch
 Voir annexes [[#5.3 Configuration des VLANs sur le switch]]
@@ -110,37 +110,37 @@ Voir annexes [[#5.3 Configuration des VLANs sur le switch]]
 Voir aussi l'annexe [[#5.2 Configuration firewall OPNsense]]
 #### 2.3.1 VLAN 10 
 
-![[Pasted image 20260122094612.png]]
+![](Images/Pasted_image_20260122094612.png)
 
 #### 2.3.2 VLAN 20
 
-![[Pasted image 20260122094633.png]]
+![](Images/Pasted_image_20260122094633.png)
 
 #### 2.3.3 VLAN 30
 
-![[Pasted image 20260122094653.png]]
+![](Images/Pasted_image_20260122094653.png)
 
 #### 2.3.4 VLAN 40
 
-![[Pasted image 20260122094704.png]]
+![](Images/Pasted_image_20260122094704.png)
 
 ### 2.4 Configuration des DHCPv4 des VLANS 
 
 #### 2.4.1 VLAN 10 
 
-![[Pasted image 20260122091956.png]]
+![](Images/Pasted_image_20260122091956.png)
 
 #### 2.4.2 VLAN 20 
 
-![[Pasted image 20260122092014.png]]
+![](Images/Pasted_image_20260122092014.png)
 
 #### 2.4.3 VLAN 30
 
-![[Pasted image 20260122092027.png]]
+![](Images/Pasted_image_20260122092027.png)
 
 #### VLAN 40
 
-![[Pasted image 20260122092040.png]]
+![](Images/Pasted_image_20260122092040.png)
 
 
 ### 2.5 Ajout de VMS sur la VLAN Users
@@ -227,12 +227,12 @@ Voir aussi l'annexe [[#5.2 Configuration firewall OPNsense]]
 ## 5. Annexes :
 
 ### 5.1 Photo de l'adressage IP des VLAN
-![[Pasted image 20260116114318.png]]
+![](Images/Pasted_image_20260116114318.png)
 
 ### 5.2 Configuration firewall OPNsense
-![[Pasted image 20260123102039.png]]
+![](Images/Pasted_image_20260123102039.png)
 
 ### 5.3 Configuration des VLANs sur le switch
-![[Pasted image 20260123115845.png]]
-![[Pasted image 20260123115859.png]]
-![[Pasted image 20260123115909.png]]
+![](Images/Pasted_image_20260123115845.png)
+![](Images/Pasted_image_20260123115859.png)
+![](Images/Pasted_image_20260123115909.png)
