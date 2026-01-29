@@ -6,7 +6,7 @@
 **R&D (Groupe 3)**
 VITROU Vladimir / BRAUD Thomas / CAILLAUD Nino / MOLENDI Lucas / BROSSET Lilian / ALBERTEAU Théotim
 #### Date : 
-**13/01/2026 - **/\*\*/2026
+**13/01/2026 - **26/01/2026
 
 ## 1. Conventions et inventaire : 
 
