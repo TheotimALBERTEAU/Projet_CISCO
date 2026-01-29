@@ -21,7 +21,7 @@ Pour installer Graphana et GLPI, il faut faire 2 VM Debian 13 ou tout autre OS L
 
 - Sélection des logiciels, puis on termine l'installation 
 
-![](image.png)
+![](Images/image.png)
 
 ## Graphana (theotim a faire)  
 
