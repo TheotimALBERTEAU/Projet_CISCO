@@ -4,7 +4,7 @@ Pour installer Graphana et GLPI, il faut faire 2 VM Debian 13 ou tout autre OS L
 ### Installation Debian 13
 - Choisir Interface Graphique  
 
-![](Images/image.png)  
+![](Images/debian.png)  
 
 - Nommer la machine (ici celle de Graphana)  
 
@@ -25,6 +25,8 @@ Pour installer Graphana et GLPI, il faut faire 2 VM Debian 13 ou tout autre OS L
 
 ## Graphana (theotim a faire)  
 
-## GLPI
+## GLPI  
+Pour l'installation de GLPI nous avons suivi ce tutoriel d'IT-Connect : [Tutoriel](https://www.it-connect.fr/installation-pas-a-pas-de-glpi-10-sur-debian-12/)  
+
 
 
