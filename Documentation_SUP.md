@@ -145,4 +145,17 @@ Pour l'installation de GLPI nous avons suivi ce tutoriel d'IT-Connect : [Tutorie
 
 - Création de catégorie ITIL pour voir les bons champs dans les tickets.
 
-![alt text](<Images/Capture d'écran 2026-01-30 150903.png>)
+![alt text](<Images/Capture d'écran 2026-01-30 150903.png>)  
+
+- Création des catégories Service et Réseau  
+
+![alt text](<Images/Capture d'écran 2026-01-30 154002.png>)  
+
+![alt text](<Images/Capture d'écran 2026-01-30 153954.png>) 
+
+
+- Création des sous-catégories DNS (parent : Services), Interface, Routage, Switch (parent : Réseau)  
+
+![alt text](<Images/Capture d'écran 2026-01-30 154010.png>)  
+
+![alt text](<Images/Capture d'écran 2026-01-30 154015.png>)
