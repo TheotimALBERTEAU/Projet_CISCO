@@ -52,7 +52,7 @@ Attention, il faut avoir une version à jour de OPNSense !
 
 - Contenu du fichier config scrape de prometheus
 
-![alt text](<Images/Capture d'écran 2026-01-30 134912.png>)  
+![alt text](<Images/Capture d'écran 2026-01-30 144810.png>) 
 
 - Page de connexion a Grafana  
 
@@ -69,6 +69,11 @@ Attention, il faut avoir une version à jour de OPNSense !
 - Les valeurs sont à 1, donc tout est activé 
 
 ![alt text](<Images/Capture d'écran 2026-01-30 135519.png>)  
+
+- Fichier de configuration blackbox_exporter  
+
+![alt text](<Images/Capture d'écran 2026-01-30 144730.png>)  
+
 
 ### Création des Alertes 
 
@@ -96,9 +101,21 @@ Attention, il faut avoir une version à jour de OPNSense !
   
 ![alt text](<Images/Capture d'écran 2026-01-30 141216.png>)
 
+### KPI  
+
 - Statut de l’intranet DNS du panneau de configuration  
 
 ![alt text](<Images/Capture d'écran 2026-01-30 141638.png>)
+
+- HTTPS intranet UP + p95 (sonde depuis le LAN). Dans notre cas nous recevons malheureusement pas d'informations
+
+![alt text](<Images/Capture d'écran 2026-01-30 145710.png>)
+
+### Pour compte rendu de l'état du switch  
+
+- Configuration SNMP  
+
+![alt text](<Images/Capture d'écran 2026-01-30 144758.png>)
 
 
 ## GLPI  
@@ -124,4 +141,8 @@ Pour l'installation de GLPI nous avons suivi ce tutoriel d'IT-Connect : [Tutorie
 
 ![alt text](<Images/Capture d'écran 2026-01-30 142647.png>)
 
-### Mise en place du Service Desk
+### Mise en place du Service Desk 
+
+- Création de catégorie ITIL pour voir les bons champs dans les tickets.
+
+![alt text](<Images/Capture d'écran 2026-01-30 150903.png>)
