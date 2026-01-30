@@ -74,6 +74,9 @@ Attention, il faut avoir une version à jour de OPNSense !
 
 ![alt text](<Images/Capture d'écran 2026-01-30 144730.png>)  
 
+- Fichier de configuration de Prometheus
+
+![alt text](<Images/Capture d'écran 2026-01-30 160045.png>)
 
 ### Création des Alertes 
 
@@ -111,7 +114,21 @@ Attention, il faut avoir une version à jour de OPNSense !
 
 ![alt text](<Images/Capture d'écran 2026-01-30 145710.png>)
 
-### Pour compte rendu de l'état du switch  
+- Config panel latence DNS et latence icmp (encadrer en rouge)
+
+![alt text](<Images/Capture d’écran 2026-01-30 155234.png>)  
+
+- Config panel WAN throughput  
+
+![alt text](<Images/Capture d'écran 2026-01-30 155438.png>)  
+
+### DashBoard
+ ![alt text](<Images/Capture d'écran 2026-01-30 155612.png>)  
+ ![alt text](<ImagesCapture d'écran 2026-01-30 155650.png>)
+
+
+
+### Pour compte rendu de l'état du switch  (Bonus)
 
 - Configuration SNMP  
 
@@ -141,7 +158,7 @@ Pour l'installation de GLPI nous avons suivi ce tutoriel d'IT-Connect : [Tutorie
 
 ![alt text](<Images/Capture d'écran 2026-01-30 142647.png>)
 
-### Mise en place du Service Desk 
+### Mise en place du Service Desk (Pas terminer)
 
 - Création de catégorie ITIL pour voir les bons champs dans les tickets.
 
