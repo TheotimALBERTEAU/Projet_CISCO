@@ -106,5 +106,22 @@ Pour l'installation de GLPI nous avons suivi ce tutoriel d'IT-Connect : [Tutorie
  
 - Nous avons choisi comme version de GLPI la : GLPI-11.0.5 et comme nom de domaine on met celui présent sur le tuto. Attention, dans notre cas, on accède à GLPI par localhost, car l'adresse est bloquée par le pare-feu Fortinet. 
 
+### Installation et Configuration 
 
+- Page d'installation de GPLI, une fois le service lancé et le tutoriel suivi. 
 
+![alt text](<Images/Capture d'écran 2026-01-30 142048.png>)  
+
+- Configuration de la connexion a la base de donnéees  
+
+![alt text](<Images/Capture d'écran 2026-01-30 142242.png>)
+
+- Test de connexion à la base de données. Il faut bien cocher notre base de données créée au préalable.  
+
+![alt text](<Images/Capture d'écran 2026-01-30 142507.png>)
+
+- Écran d'accueil après connexion  
+
+![alt text](<Images/Capture d'écran 2026-01-30 142647.png>)
+
+### Mise en place du Service Desk
